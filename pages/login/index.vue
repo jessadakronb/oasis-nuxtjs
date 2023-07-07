@@ -1,0 +1,33 @@
+<template>
+  <div class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-500">
+    <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-md">
+      <div class="logo-container">
+        <img src="/images/lms_logo.jpeg" alt="Oasis Logo" class="logo">
+      </div>
+      <h2 class="text-3xl font-bold mb-6 text-center text-gray-800">Welcome to Integra8t</h2>
+      <LoginForm />
+    </div>
+  </div>
+</template>
+
+<script>
+import LoginForm from '~/components/login/LoginForm.vue'
+
+export default {
+  components: {
+    LoginForm
+  }
+}
+</script>
+
+<style>
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+</style>
