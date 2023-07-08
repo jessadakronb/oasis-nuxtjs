@@ -1,10 +1,11 @@
 <template>
-  <div class="w-64 bg-gray-900 text-white">
+  <div class="w-64 custom-bg-color text-white">
     <!-- Logo -->
-    <div class="flex items-center justify-center py-4">
-      <img src="/images/int8_logo.png" alt="Int8 Logo" class="logo">
+    <div class="flex items-center justify-center py-4 ">
+      <img src="/images/int8_logo2.png" alt="Int8 Logo" class="logo">
     </div>
-
+    <hr />
+    <br />
     <!-- Menu Items -->
     <nav>
       <ul class="space-y-2">
@@ -35,5 +36,9 @@ export default {
 .logo {
   max-width: 160px;
   margin-bottom: 1rem;
+}
+
+.custom-bg-color {
+  background-color: #3C4B64;
 }
 </style>
