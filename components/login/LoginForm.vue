@@ -21,10 +21,11 @@
         class="w-full px-4 py-2 text-white font-semibold bg-teal-500 rounded-lg hover:bg-teal-600 focus:outline-none focus:shadow-outline"
         type="submit">Sign In</button>
     </div>
-    <div>
-      <button
-        class="w-full px-4 py-2 text-white font-semibold bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:shadow-outline"
-        type="submit">Create an Account</button>
+    <div class="w-full text-center">
+      <nuxt-link to="/register"
+        class="block w-full px-4 py-2 text-white font-semibold bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:shadow-outline">
+        Register
+      </nuxt-link>
     </div>
   </form>
 </template>
